@@ -6,8 +6,8 @@ This repository contains code and resources related to healthcare resource alloc
 
 ## Data Sources
 - State and country datasets are sourced from government websites.
-- [Link to State Dataset](data.gov.in)
-- [Link to Country Dataset](data.cdc.gov)
+- [Link to State Dataset](https://data.gov.in/)
+- [Link to Country Dataset](https://data.cdc.gov/)
 
 ## Code Files
 The repository includes the following main code files:
