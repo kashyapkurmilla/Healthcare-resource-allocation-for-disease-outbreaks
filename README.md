@@ -12,9 +12,10 @@ This repository contains code and resources related to healthcare resource alloc
 ## Code Files
 The repository includes the following main code files:
 - `hierarchical clustering`: Code for hierarchical clustering analysis.
-- `kmeans`: Code for k-means clustering analysis.
+- `k-means`: Code for k-means clustering analysis.
 - `spectral clustering`: Code for spectral clustering analysis.
 - `dbscan`: Code for DBSCAN clustering analysis.
+- `datasets`: datasets repo.
 
 ## Usage
 To use the code in this repository, follow these steps:
