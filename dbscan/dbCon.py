@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import scipy.stats as stats
 
 # Load the dataset
-data = pd.read_csv("C:/Users/kashy/Desktop/five/lab/dmpa/healthcare resource allocation/datasetAll.csv", encoding='latin-1')
+data = pd.read_csv("C:/dmpa/healthcare resource allocation/datasetAll.csv", encoding='latin-1')
 
 # Handle missing values by filling with the mean
 data['Cases - cumulative total'].fillna(data['Cases - cumulative total'].mean(), inplace=True)

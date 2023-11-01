@@ -7,7 +7,7 @@ from sklearn.cluster import AgglomerativeClustering
 import seaborn as sns
 
 # Load your dataset
-data = pd.read_csv('C:/Users/kashy/Desktop/five/lab/dmpa/healthcare resource allocation/datasetAll.csv', encoding='latin-1')
+data = pd.read_csv('C:/dmpa/healthcare resource allocation/datasetAll.csv', encoding='latin-1')
 
 # Check for missing values
 print(data.isnull().sum())

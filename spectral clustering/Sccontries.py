@@ -10,7 +10,7 @@ import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="matplotlib")
 
 # Load the new dataset with the specified encoding
-data = pd.read_csv('C:/Users/kashy/Desktop/five/lab/dmpa/healthcare resource allocation/datasetAll.csv', encoding='latin-1')
+data = pd.read_csv('C:/dmpa/healthcare resource allocation/datasetAll.csv', encoding='latin-1')
 
 # Impute missing values with the mean
 imputer = SimpleImputer(strategy='mean')

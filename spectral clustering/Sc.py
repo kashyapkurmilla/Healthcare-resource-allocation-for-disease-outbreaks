@@ -4,9 +4,9 @@ from sklearn.cluster import SpectralClustering
 from sklearn.preprocessing import StandardScaler
 
 # Load the datasets for Deaths, Doses Administered, and Total Cases
-deaths_data = pd.read_csv('C:/Users/kashy/Desktop/five/lab/dmpa/healthcare resource allocation/deaths.csv')
-doses_data = pd.read_csv('C:/Users/kashy/Desktop/five/lab/dmpa/healthcare resource allocation/totalDoses.csv')
-cases_data = pd.read_csv('C:/Users/kashy/Desktop/five/lab/dmpa/healthcare resource allocation/totalcases.csv')
+deaths_data = pd.read_csv('C:/dmpa/healthcare resource allocation/deaths.csv')
+doses_data = pd.read_csv('C:/dmpa/healthcare resource allocation/totalDoses.csv')
+cases_data = pd.read_csv('C:/dmpa/healthcare resource allocation/totalcases.csv')
 
 # Merge the datasets based on a common column (e.g., 'State/UT')
 # Make sure you have a common identifier column for merging

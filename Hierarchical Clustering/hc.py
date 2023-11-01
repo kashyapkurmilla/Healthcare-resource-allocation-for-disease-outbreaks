@@ -4,7 +4,7 @@ from scipy.cluster.hierarchy import dendrogram, linkage, fcluster
 import seaborn as sns
 
 # Load the hospital resources dataset from a CSV file
-hospital_data = pd.read_csv('C:/Users/kashy/Desktop/five/lab/dmpa/healthcare resource allocation/beds.csv')
+hospital_data = pd.read_csv('C:/dmpa/healthcare resource allocation/beds.csv')
 
 # Select the relevant attributes for clustering
 hospital_attributes = hospital_data[['Total Number of COVID 19 beds', 'ICU beds for COVID', 'Ventilator beds for COVID']]

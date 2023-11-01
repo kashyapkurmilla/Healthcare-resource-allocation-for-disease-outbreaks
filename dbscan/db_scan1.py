@@ -4,7 +4,7 @@ import seaborn as sns
 from scipy import stats
 
 # Load the dataset
-data = pd.read_csv('C:/Users/kashy/Desktop/five/lab/dmpa/healthcare resource allocation/cumulative.csv')
+data = pd.read_csv('C:/dmpa/healthcare resource allocation/cumulative.csv')
 
 # Data Cleaning (if needed)
 # Check for missing values and perform data cleaning steps here.
