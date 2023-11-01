@@ -1,8 +1,6 @@
 # Healthcare-resource-allocation-for-disease-outbreaks
 This GitHub repository hosts code and resources related to healthcare resource allocation strategies for managing disease outbreaks. The code in this repository covers hierarchical clustering, k-means, spectral clustering, and DBSCAN applied to state-level and country-level datasets obtained from government websites. 
 
-# Healthcare Resource Allocation for Disease Outbreaks
-
 ## Project Overview
 This repository contains code and resources related to healthcare resource allocation strategies for managing disease outbreaks. The code includes implementations of hierarchical clustering, k-means clustering, spectral clustering, and DBSCAN applied to state-level and country-level datasets obtained from government websites. Our goal is to provide data-driven tools and insights to assist healthcare professionals and policymakers during disease outbreaks.
 
